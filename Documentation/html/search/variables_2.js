@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['largeur',['largeur',['../class_cadran.html#a6c930bf327a38424afe4cb0ce75c0650',1,'Cadran']]]
+  ['hauteur',['hauteur',['../class_cadran.html#a18a3e6147ef0d98e8f556b7a590c753e',1,'Cadran']]],
+  ['heures',['heures',['../class_horloge.html#ab2cc08d85144cf5376dd922a79a7f189',1,'Horloge']]]
 ];

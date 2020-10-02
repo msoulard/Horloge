@@ -2,8 +2,8 @@
   * @file cadran.cpp
   * @author Maëva Soulard
   * @date 01/10/2020
-  * @detail Assure la gestion d'un Cadran en Mode texte à partir des séquences d’échappement ANSI
-  */
+  * @detail Implémentation de la classe Cadran
+ */
 
 #include "cadran.h"
 

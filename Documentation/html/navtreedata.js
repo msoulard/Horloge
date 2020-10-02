@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Test Cadran", "index.html", [
+  [ "Horloge", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Liste des classes", "annotated.html", "annotated_dup" ],
       [ "Index des classes", "classes.html", null ],
@@ -14,7 +14,9 @@ var NAVTREE =
       [ "Liste des fichiers", "files.html", "files" ],
       [ "Membres de fichier", "globals.html", [
         [ "Tout", "globals.html", null ],
-        [ "Fonctions", "globals_func.html", null ]
+        [ "Fonctions", "globals_func.html", null ],
+        [ "Énumérations", "globals_enum.html", null ],
+        [ "Valeurs énumérées", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]

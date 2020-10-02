@@ -1,10 +1,20 @@
 #ifndef HORLOGE_H
 #define HORLOGE_H
 
+/**
+   @file horloge.h
+   @brief Déclaration de la classe Horloge
+   @author Maëva Soulard
+   @date 02/10/2020
+*/
 #include "clavier.h"
 #include "cadran.h"
 #include <time.h>
 
+/**
+ * @brief The MODES_HORLOGE enum
+ * @details Enumération des modes de l'horloge
+ */
 enum MODES_HORLOGE{
     AUCUN_REGLAGE,
     REGLAGE_HEURE,

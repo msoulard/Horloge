@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['texte',['texte',['../class_cadran.html#a3d3262c1dc8742c4d2a2d0905084b378',1,'Cadran']]]
+  ['minutes',['minutes',['../class_horloge.html#ab635616cc81ce4ff71ec085174f9d1e6',1,'Horloge']]],
+  ['mode',['mode',['../class_horloge.html#a9dde73231044b07d3664c6f4513f596d',1,'Horloge']]]
 ];

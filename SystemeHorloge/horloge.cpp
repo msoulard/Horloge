@@ -1,4 +1,8 @@
 /**
+  @file horloge.cpp
+  @brief Implémentation de la classe Horloge
+  @author Maëva Soulard
+  @date 02/10/2020
 */
 
 #include "horloge.h"
@@ -7,6 +11,7 @@
  * @brief Horloge::Horloge
  * @param _nbModes
  * @param _resolution
+ * @details Construteur de la classe Horloge
  */
 Horloge::Horloge(const int _nbModes, const int _resolution) :
     nbModes(_nbModes),
@@ -22,6 +27,7 @@ Horloge::Horloge(const int _nbModes, const int _resolution) :
 
 /**
  * @brief Horloge::~Horloge
+ * @details Destructeur de la classe Horloge
  */
 Horloge::~Horloge()
 {
@@ -32,6 +38,7 @@ Horloge::~Horloge()
 /**
  * @brief Horloge::AvancerMinutes
  * @return
+ * @details Fonction qui permet de faire avancer les minutes
  */
 bool Horloge::AvancerMinutes()
 {
@@ -46,6 +53,7 @@ bool Horloge::AvancerMinutes()
 /**
  * @brief Horloge::AvancerHeures
  * @return
+ * @details Fonction qui permet de faire avancer les heures
  */
 bool Horloge::AvancerHeures()
 {
@@ -70,6 +78,7 @@ bool Horloge::AvancerHeures()
 
 /**
  * @brief Horloge::ChangerMode
+ * @details Fonction qui permet de changer le mode de configuration de l'horloge
  */
 void Horloge::ChangerMode()
 {
@@ -78,6 +87,7 @@ void Horloge::ChangerMode()
 
 /**
  * @brief Horloge::ReculerHeures
+ * @details Fonction qui permet de faire reculer les heures
  */
 void Horloge::ReculerHeures()
 {
@@ -98,6 +108,7 @@ void Horloge::ReculerHeures()
 
 /**
  * @brief Horloge::ReculerMinutes
+ * @details Fonction qui permet de faire reculer les minutes
  */
 void Horloge::ReculerMinutes()
 {
@@ -111,6 +122,7 @@ void Horloge::ReculerMinutes()
  * @brief Horloge::Controler
  * @param _numTouche
  * @return
+ * @details Fonction qui contrôle l'horloge
  */
 TOUCHES_CLAVIER Horloge::Controler(const TOUCHES_CLAVIER _numTouche)
 {
@@ -157,6 +169,7 @@ TOUCHES_CLAVIER Horloge::Controler(const TOUCHES_CLAVIER _numTouche)
 
 /**
  * @brief Horloge::ActualiserHeure
+ * @details Fonction qui permet d'actualiser l'heure
  */
 void Horloge::ActualiserHeure()
 {
